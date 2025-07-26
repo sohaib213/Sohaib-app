@@ -12,7 +12,7 @@ function AppNavbar() {
   return (
     <Navbar fixed='top' expand="lg" className="bg-body-tertiary">
       <Container>
-        <Link className='navbar-brand' to="/">CartApp</Link>
+        <Link className='navbar-brand' to="/">Sohaib</Link>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
