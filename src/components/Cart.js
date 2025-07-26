@@ -33,7 +33,7 @@ function Cart(){
       {cart.map((product, i) => 
         <tr key={product.id}>
           <td style={{width: "20%"}}>{product.title}</td>
-          <td style={{width: "10%"}}><img src={product.image} style={{width: "70px", height: "70px"}}></img></td>
+          <td style={{width: "10%"}}><img src={product.image} style={{width: "70px", height: "70px"}} alt=''></img></td>
           <td style={{width: "50%"}}>{product.description}</td>
           <td>{product.price} $</td>
           <td style={{width: "5%"}}>{product.quantity}</td>
